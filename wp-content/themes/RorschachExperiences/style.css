@@ -1,0 +1,281 @@
+@charset "UTF-8";
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	box-sizing: border-box;
+	color: #222222;
+	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+}
+
+section {
+	
+}
+body {
+	margin-left: auto;
+	margin-right: auto;
+}
+/* Text Styles */
+
+h1, h2, h3, h4 {
+	margin: 0.5vw 0;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 8vw;
+	font-family: 'Playfair Display', sans-serif;
+    padding: 10, 10;
+}
+h2 {
+	font-size: 6vw;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.5vw;
+	padding: 3% 0%;
+}
+h3, a {
+	font-family: 'Oswald', sans-serif;
+	font-size: 4vw;
+	margin: 0;
+	letter-spacing: 0.5vw;
+    font-style: italic;
+}
+h4 {
+	font-size: 3.5vw;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.4vw;
+    font-style: italic;
+}
+h5 {
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3vw;
+	letter-spacing: 0.1vw;
+}
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2.5vw;
+	margin: 0;
+	letter-spacing: normal;
+	max-width: 550px;
+	margin: 1vw 0%;
+}
+.shaddow {
+	text-shadow: 0px 0px 80px #FFFFFF;
+	}
+
+/* elements */
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+} 
+a {
+	text-decoration: none;
+}
+span {
+	font-size: inherit;
+	font-family: inherit;
+}
+img {
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	vertical-align: middle;
+	object-fit: cover;
+}
+
+/** header/ nav styles**/
+
+header {
+	background-color: #ffffff;
+	padding: 5px;
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 192px;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #2F322A;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 5px;
+}
+
+
+
+/*front page body*/
+.bg-video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 65%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    -moz-transform: translateX(-50%) translateY(-62%) translateZ(0);
+	     -o-transform: translateX(-50%) translateY(-62%) translateZ(0);
+	    -ms-transform: translateX(-50%) translateY(-62%) translateZ(0);
+	-webkit-transform: translateX(-50%) translateY(-62%) translateZ(0);
+          transform: translateX(-50%) translateY(-62%) translateZ(0);
+	margin-top: 100px;
+}
+
+/* Div Styles*/
+
+.center {
+    padding: 0;
+    align-content: center;
+    align-self: center;
+    width: auto;
+    height: auto;
+	text-align: center;
+}
+
+
+.hero {
+    height: 100vh;
+	background-color: rgba(255, 255, 255, 0.65);
+	padding: 0;
+	margin: 0;
+	padding: 7vh 7vw;
+	height: 100%;
+	justify-content: center;
+	text-align: center;
+}
+
+/*Button Styles*/
+.button-black {
+	margin: 0px 30%; padding: 5px; border: 2px solid black; border-image: none;
+}
+
+.button-white {
+	margin: 0px 30%; 
+    padding: 5px; 
+    border: 2px solid white; 
+    border-image: none;
+    border-color: white;
+}
+
+/*Other Styles*/
+
+#mc_embed_signup {
+   padding: 40px 50px; 
+}
+
+.hero-logo {
+	max-width: 50%;
+	max-height: 30%;
+	align-self: center;
+}
+
+.post-feed {
+	background-color: #dddddd;
+	padding: 5%;
+}
+.col {
+	width: 100%;
+}
+.third {
+	height: 250px;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.mc_embed_signup_scroll h4 {
+	font-size: 3.5vw;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 0.4vw;
+    font-style: italic;
+}
+/*Media Queries*/
+/*Tablet View*/
+
+@media (min-width: 768px){
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+	.half {
+		width: 50%;
+		left: 0px;
+		float: left;
+	}
+	.third {
+		width: 35%;
+		left: 0px;
+		float: left;
+		height: auto;
+	}	
+	.two-thirds {
+		width: 65%;
+		left: 0px;
+		float: left;
+	}
+
+	.col {
+		float: left;
+	}
+	.padding-right {
+		padding-right: 5%;
+	}
+	h1 {
+	font-size: 5vw;
+	}
+	h2 {
+		font-size: 3vw;
+	}
+	h3, a {
+		font-size: 2.5vw;
+	}
+	h4 {
+		font-size: 2vw;
+	}
+	h5 {
+		font-size: 1.5vw;
+	}
+	p {
+		font-size: 1.7vw;
+	
+	}
+}
+
+/*Desktop View*/
+
+@media (min-width: 1024px){
+	
+	.style-logo {
+		float: left;
+	}
+	
+	.style-nav {
+		float: right;
+	}
+	.post-feed {
+		padding: 10%;
+	}
+	p {
+		font-size: 1.2vw;
+	}
+}
