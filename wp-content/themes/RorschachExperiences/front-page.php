@@ -8,6 +8,7 @@
     <meta name="robots" content="index,follow"/>
     <meta name="googlebot" content="index,follow"/>
     <link rel="stylesheet" href="<?php echo get_bloginfo('template_directory'); ?>/style.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400|Special+Elite|Spectral:200i,800" rel="stylesheet">
     <title>Rorschach Experiences</title> 
 </head>	
 <BODY>
@@ -20,13 +21,13 @@
 		<DIV class="content">
 			<div> <!-- Branding -->
 			<img class="hero-logo" alt="Rorschach Experiences logo" src=<?php echo get_bloginfo('template_directory');?>/media/re-logo.png />
-			<H3>              Producing immersive and submersive experiences          </H3>
+			<H2>              Producing immersive and submersive experiences          </H2>
 			</div>
 			<!-- Begin MailChimp Signup Form -->
 			
 			<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
 			<div id="mc_embed_signup">
-				<h5>Sign up for our newsletter to be the first to know about our experiences and exclusive opportunities to be a playtester for our research team!</h5>
+				<h3>Sign up for our newsletter to be the first to know about our experiences and exclusive opportunities to be a playtester for our research team!</h3>
 				<form action="https://christycasey.us13.list-manage.com/subscribe/post?u=8f5ad869318d57a4f0a6f4625&amp;id=98cf3f316b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					<div id="mc_embed_signup_scroll">
 					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
@@ -38,9 +39,9 @@
 			</div>
 			<!--End mc_embed_signup-->
 		<div> <!--Social Links-->
-			<H3><A href="https://www.instagram.com/rorschachexperiences/" target="_blank"> @RorschachExperiences </A>             
+			<H5><A href="https://www.instagram.com/rorschachexperiences/" target="_blank"> @RorschachExperiences </A>             
 				<A href="https://www.instagram.com/explore/tags/rorschachexperiences/" target="_blank">#RorschachExperiences</A>   
-			</H3>
+			</H5>
 		</div>
 	</DIV>
 	</SECTION>
@@ -54,11 +55,11 @@
 			<?php query_posts('posts_per_page=3&post_type=experiences&post_tag=upcoming'); ?> 
 			<?php while ( have_posts() ) : the_post(); ?>
 				<div class="experience-list row">
-						<section class="third col padding-right"><a href="<?php the_field('link');?>" target="_blank"><img src="<?php the_field('main_image'); ?>"></a></section>
+						<section class="half col padding-right"><a href="<?php the_field('link');?>" target="_blank"><img src="<?php the_field('main_image'); ?>"></a></section>
 
-						<div class="two-thirds col">
-							<div class="vertical-center">
-							<a href="<?php the_field('link');?>" target="_blank"><h4><?php the_title(); ?></h4></a>
+						<div class="half col vertical-center">
+							<div class="">
+							<a href="<?php the_field('link');?>" target="_blank"><h3><?php the_title(); ?></h3></a>
 							<h5><?php the_field('date');?>, <?php the_field('time');?></h5>
 							<h5><?php the_field('location');?></h5>
 							<p><?php the_field('blurb');?>	</p>

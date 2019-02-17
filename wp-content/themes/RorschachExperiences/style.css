@@ -5,64 +5,68 @@
 	font-size: 16px;
 	box-sizing: border-box;
 	color: #222222;
-	font-family: Gotham, Helvetica Neue, Helvetica, Arial," sans-serif";
+	font-family: 'Montserrat', sans-serif;
+	font-family: 'Spectral', serif;
+	font-family: 'Special Elite', cursive;
 }
 
 section {
 	
 }
-body {
+body, html {
 	margin-left: auto;
 	margin-right: auto;
+  	font-size: 13px;
 }
 /* Text Styles */
 
 h1, h2, h3, h4 {
 	margin: 0.5vw 0;
+}
+
+
+h1 {
+	font-size: 3em;
+	font-family: 'Spectral', serif;
+    padding: 10, 10;
+	font-weight: 800;
 	text-transform: uppercase;
 }
-h1 {
-	font-size: 8vw;
-	font-family: 'Playfair Display', sans-serif;
-    padding: 10, 10;
-}
 h2 {
-	font-size: 6vw;
-	font-family: 'Oswald', sans-serif;
+	font-size: 2.5em;
+	font-family: 'Special Elite', cursive;
 	letter-spacing: 0.5vw;
-	padding: 3% 0%;
 }
 h3, a {
-	font-family: 'Oswald', sans-serif;
-	font-size: 4vw;
+	font-family: 'Spectral', serif;
+	font-size: 1em;
 	margin: 0;
-	letter-spacing: 0.5vw;
-    font-style: italic;
+	font-weight: 800;
+	line-height: 1em;
 }
 h4 {
-	font-size: 3.5vw;
-	font-family: 'Oswald', sans-serif;
+	font-size: 1em;
+	font-family: 'Spectral', serif;
 	letter-spacing: 0.4vw;
     font-style: italic;
+	font-weight: 200;
 }
 h5 {
 	margin: 0;
-	font-family: 'Oswald', sans-serif;
-	font-size: 3vw;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
 	letter-spacing: 0.1vw;
+	font-weight: 400;
 }
 p {
-	font-family: 'Oswald', sans-serif;
-	font-size: 2.5vw;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: 200;
 	margin: 0;
 	letter-spacing: normal;
 	max-width: 550px;
 	margin: 1vw 0%;
 }
-.shaddow {
-	text-shadow: 0px 0px 80px #FFFFFF;
-	}
-
 /* elements */
 ul, li {
 	margin: 0;
@@ -90,6 +94,9 @@ header {
 	background-color: #ffffff;
 	padding: 5px;
 }
+.hero h2 {
+	font-size: 2em;
+}
 
 .style-logo {
 	margin-left: auto;
@@ -111,17 +118,16 @@ header {
 	padding: 5px;
 }
 
-
-
 /*front page body*/
 .bg-video {
     position: fixed;
     top: 50%;
     left: 50%;
-    min-width: 65%;
+    min-width: 100%;
     min-height: 100%;
     width: 100%;
     height: auto;
+	object-fit: cover;
     z-index: -100;
     -moz-transform: translateX(-50%) translateY(-62%) translateZ(0);
 	     -o-transform: translateX(-50%) translateY(-62%) translateZ(0);
@@ -153,7 +159,12 @@ header {
 	justify-content: center;
 	text-align: center;
 }
-
+.vertical-center-wrapper {
+	position: relative;
+}
+.vertical-center {
+	 padding: 5% 0%;
+}
 /*Button Styles*/
 .button-black {
 	margin: 0px 30%; padding: 5px; border: 2px solid black; border-image: none;
@@ -170,7 +181,7 @@ header {
 /*Other Styles*/
 
 #mc_embed_signup {
-   padding: 40px 50px; 
+   padding: 10px 0px; 
 }
 
 .hero-logo {
@@ -181,7 +192,7 @@ header {
 
 .post-feed {
 	background-color: #dddddd;
-	padding: 5%;
+	padding: 10% 5%;
 }
 .col {
 	width: 100%;
@@ -205,11 +216,16 @@ header {
 	letter-spacing: 0.4vw;
     font-style: italic;
 }
+
+.experience-list {
+	padding: 5% 0%;
+}
 /*Media Queries*/
 /*Tablet View*/
 
 @media (min-width: 768px){
 	
+	 html { font-size: 15px; }
 	.style-nav ul li {
 		display: inline-block;
 	}
@@ -240,40 +256,22 @@ header {
 	.padding-right {
 		padding-right: 5%;
 	}
-	h1 {
-	font-size: 5vw;
-	}
-	h2 {
-		font-size: 3vw;
-	}
-	h3, a {
-		font-size: 2.5vw;
-	}
-	h4 {
-		font-size: 2vw;
-	}
-	h5 {
-		font-size: 1.5vw;
-	}
-	p {
-		font-size: 1.7vw;
-	
-	}
+
 }
 
 /*Desktop View*/
 
 @media (min-width: 1024px){
 	
+	html {
+  font-size: 17px;
+	}
 	.style-logo {
 		float: left;
 	}
 	
 	.style-nav {
 		float: right;
-	}
-	.post-feed {
-		padding: 10%;
 	}
 	p {
 		font-size: 1.2vw;
