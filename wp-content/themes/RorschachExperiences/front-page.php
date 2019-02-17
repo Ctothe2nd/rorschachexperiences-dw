@@ -45,7 +45,18 @@
 		</div>
 	</DIV>
 	</SECTION>
+	<section class="definition">
+		<h3>Submersive</h3>
+			<h5>[sub·​mer·​sive]  / ˈsəbˈmərsiv /</h5>
 
+			<h4>adjective</h4>
+				<ol><p>
+				<li><p>Describing a genre of experience where audience participants are submersed in a fictional reality to a depth where their own reality becomes imperceptible. <em>They don’t just see or hear the story, they LIVE it.</em> Step out of the role of observer and become the protagonist, with a level of agency and influence in the narrative similar to that which you would have over your own life.</p></li>
+
+				<li><p>Characterize something that completely engulfs the subject until it is imperceptible. The prefix “sub-”, meaning under, is the strongest associated with the latin verbe “mergere”, meaning to plunge. It implies an extensive depth and duration.</p></li>
+
+				</p></ol>
+			</section>
 
 	<section class="post-feed">
 		<div class="row">

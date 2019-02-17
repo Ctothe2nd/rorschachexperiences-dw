@@ -64,7 +64,7 @@ p {
 	font-weight: 200;
 	margin: 0;
 	letter-spacing: normal;
-	max-width: 550px;
+	max-width: 950px;
 	margin: 1vw 0%;
 }
 /* elements */
@@ -73,6 +73,10 @@ ul, li {
 	padding: 0;
 	list-style: none;
 } 
+ol, li {
+	list-style-type: decimal;
+	margin-left: 25px;
+}
 a {
 	text-decoration: none;
 }
@@ -165,6 +169,10 @@ header {
 .vertical-center {
 	 padding: 5% 0%;
 }
+.definition {
+	padding: 10%;
+	background-color: #FFFFFF;
+}
 /*Button Styles*/
 .button-black {
 	margin: 0px 30%; padding: 5px; border: 2px solid black; border-image: none;
@@ -219,6 +227,18 @@ header {
 
 .experience-list {
 	padding: 5% 0%;
+}
+.definition ol, li {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	font-weight: 200;
+}
+.definition h3{
+	font-size: 2em;
+}
+.center p {
+	text-align: center;
+	padding: 5%;
 }
 /*Media Queries*/
 /*Tablet View*/
@@ -275,5 +295,8 @@ header {
 	}
 	p {
 		font-size: 1.2vw;
+	}
+	.definition {
+		padding: 10% 20%;
 	}
 }
