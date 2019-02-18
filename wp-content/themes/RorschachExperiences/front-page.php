@@ -71,7 +71,12 @@
 
 				</p></ol>
 			</section>
-
+<section>
+	<div class="contact row">
+		<h1 class="white">Let's get in touch!</h1>
+		<h5 class="white">Email <a class="white" href="mailto:hello@rorschachexperiences.com">hello@rorschachexperiences.com</a> to get in touch with our team. We're excited to connect!</h5>
+	</div>
+</section>
 	<section class="post-feed">
 		<div class="row">
 			<h2>Upcoming Events</h2>

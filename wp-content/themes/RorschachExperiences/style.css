@@ -233,11 +233,7 @@ header {
 	font-size: 1em;
 	font-weight: 200;
 }
-/*
-.definition h3{
-	font-size: 2em;
-}
-*/
+
 .center p {
 	text-align: center;
 	padding: 5%;
@@ -250,6 +246,12 @@ header {
 }
 .submersive {
 	background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("media/poker project.jpg");
+}
+.contact {
+	background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("media/SOT-hug.jpg");
+	padding: 10%;
+	vertical-align: middle;
+	text-align: center;
 }
 .img-bg{
 	background-size: cover;
