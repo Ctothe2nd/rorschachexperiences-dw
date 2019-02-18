@@ -37,9 +37,9 @@ h2 {
 	font-family: 'Special Elite', cursive;
 	letter-spacing: 0.5vw;
 }
-h3, a {
+h3 {
 	font-family: 'Spectral', serif;
-	font-size: 1em;
+	font-size: 2rem;
 	margin: 0;
 	font-weight: 800;
 	line-height: 1em;
@@ -233,12 +233,39 @@ header {
 	font-size: 1em;
 	font-weight: 200;
 }
+/*
 .definition h3{
 	font-size: 2em;
 }
+*/
 .center p {
 	text-align: center;
 	padding: 5%;
+}
+.genres {
+	
+}
+.immersive {
+	background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("media/Pool Party.jpg" );
+}
+.submersive {
+	background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("media/poker project.jpg");
+}
+.img-bg{
+	background-size: cover;
+ 	height: 100vh;
+	max-height: 400px;
+	width: 100%;
+	padding: 20% 8%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.white {
+	color: #FFFFFF;
+}
+.hero a{
+	font-size: 2em;
 }
 /*Media Queries*/
 /*Tablet View*/
@@ -275,6 +302,11 @@ header {
 	}
 	.padding-right {
 		padding-right: 5%;
+	}
+	.img-bg{
+		padding: 15% 8%;
+		width: 50%;
+		max-height: 600px;
 	}
 
 }

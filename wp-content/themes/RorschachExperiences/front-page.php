@@ -20,7 +20,7 @@
 
 		<DIV class="content">
 			<div> <!-- Branding -->
-			<img class="hero-logo" alt="Rorschach Experiences logo" src=<?php echo get_bloginfo('template_directory');?>/media/re-logo.png />
+			<img class="hero-logo" alt="Rorschach Experiences logo" src="<?php echo get_bloginfo('template_directory');?>/media/re-logo.png" />
 			<H2>              Producing immersive and submersive experiences          </H2>
 			</div>
 			<!-- Begin MailChimp Signup Form -->
@@ -45,6 +45,20 @@
 		</div>
 	</DIV>
 	</SECTION>
+	<section>
+		<div class="row genres">
+			<div class="col half img-bg immersive">
+				<h3 class="white">Immersive Events and Entertainment</h3></br>
+				<h5 class="white">We create unique and inspiring environments that will transport you into a world of imagination! In addition to producing our own immersive events, we also create custom experiences. If you want your next event to be unforgetable, get in touch!</h5>
+			</div>
+			<div class="col half img-bg submersive">
+				<a href="https://bit.ly/SimulifeDiaries" target="_blank">
+				<h3 class="white">Submersive Experiences</h3></br>
+				<h5 class="white">We are pioneering a new genre where you become the star in a cinematic experience! Follow this link to read about one such experience, OpenMind, created as part of the Interactive Deep Dive (the think tank Rorschach Experiences was born out of)</h5>
+				</a>
+			</div>
+		</div>
+	</section>
 	<section class="definition">
 		<h3>Submersive</h3>
 			<h5>[sub·​mer·​sive]  / ˈsəbˈmərsiv /</h5>
@@ -60,7 +74,7 @@
 
 	<section class="post-feed">
 		<div class="row">
-			<h2>Upcoming Experiences</h2>
+			<h2>Upcoming Events</h2>
 		</div>
 		<div> <!-- Upcoming Experiences Query-->
 			<?php query_posts('posts_per_page=3&post_type=experiences&post_tag=upcoming'); ?> 
