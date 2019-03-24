@@ -79,7 +79,7 @@
 </section>
 	<section class="post-feed">
 		<div class="row">
-			<h2>Upcoming Events</h2>
+			<a name="upcoming-events"> <h2>Upcoming Events</h2></a>
 		</div>
 		<div> <!-- Upcoming Experiences Query-->
 			<?php query_posts('posts_per_page=3&post_type=experiences&post_tag=upcoming'); ?> 
