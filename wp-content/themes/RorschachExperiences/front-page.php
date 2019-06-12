@@ -13,10 +13,42 @@
 </head>	
 <BODY>
 	
-	<SECTION class="hero">
-		<div> <!-- Background -->
-			<VIDEO class="bg-video" src="<?php echo get_bloginfo('template_directory'); ?>/media/webvideo2.mov" autoplay="true" loop="true" muted="" type="video/mp4"></VIDEO> 
+	<div> <!-- Background -->
+			<img class="bg" src="<?php echo get_bloginfo('template_directory'); ?>/media/inkblot long bg.png"</img> 
 		</div>
+	<SECTION class="hero">
+<!--
+<div class="rowLandingElement" data-duration="500">
+
+  <div class="first" data-left="-250" data-bottom="500">I'm First</div>
+
+  <div class="center" data-bottom="-300">centrale</div>
+
+  <div class="last" data-left="250" data-bottom="500">ultimo</div>
+
+</div>
+
+<div class="rowLandingElement" data-duration="1000">
+
+  <div class="first" data-left="125" data-bottom="-250">primo</div>
+
+  <div class="center" data-bottom="300">centrale</div>
+
+  <div class="last" data-left="-250" data-bottom="250">ultimo</div>
+
+</div>
+
+<div class="rowLandingElement" data-duration="1500">
+
+  <div class="first" data-left="-250" data-bottom="500">I'm First</div>
+
+  <div class="center" data-bottom="-300">centrale</div>
+
+  <div class="last" data-left="250" data-bottom="500">ultimo</div>
+	
+</div>
+-->
+
 
 		<DIV class="content">
 			<div> <!-- Branding -->
@@ -102,5 +134,12 @@
 			<?php wp_reset_query(); ?>
 		</div>
 	</section>
-    
-</BODY></HTML>
+
+</BODY>
+<script src="https://code.jquery.com/jquery-1.12.4.js"
+        integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+        crossorigin="anonymous">
+</script>
+<script src="js/landingElements.js"></script>
+
+</HTML>
