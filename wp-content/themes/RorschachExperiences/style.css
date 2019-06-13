@@ -17,6 +17,10 @@ body, html {
 	margin-left: auto;
 	margin-right: auto;
   	font-size: 10px;
+	background-image: url("media/Inkblot long bg.png");
+	background-size: cover;
+	background-attachment: scroll;
+/*	background-attachment: initial;*/
 }
 /* Text Styles */
 
@@ -37,6 +41,7 @@ h2 {
 	font-family: 'Special Elite', cursive;
 	letter-spacing: 0.5vw;
 }
+
 h3 {
 	font-family: 'Spectral', serif;
 	font-size: 1.5rem;
@@ -131,7 +136,7 @@ header {
     width: 100%;
     height: auto;
 	object-fit: cover;
-    z-index: -100;
+    z-index: -10;
     /*-moz-transform: translateX(-50%) translateY(-62%) translateZ(0);
 	     -o-transform: translateX(-50%) translateY(-62%) translateZ(0);
 	    -ms-transform: translateX(-50%) translateY(-62%) translateZ(0);
@@ -196,7 +201,7 @@ header {
 }
 
 .post-feed {
-	background-color: #dddddd;
+/*	background-color: #dddddd;*/
 	padding: 10% 5%;
 }
 .col {
@@ -273,6 +278,7 @@ header {
 	.style-nav ul li {
 		display: inline-block;
 	}
+	
 	
 	.style-nav ul {
 		text-align: center;

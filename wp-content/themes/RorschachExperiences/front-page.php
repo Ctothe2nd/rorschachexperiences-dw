@@ -12,10 +12,10 @@
     <title>Rorschach Experiences</title> 
 </head>	
 <BODY>
-	
-	<div> <!-- Background -->
+	<!--
+	<div>  Background 
 			<img class="bg" src="<?php echo get_bloginfo('template_directory'); ?>/media/inkblot long bg.png"</img> 
-		</div>
+		</div>-->
 	<SECTION class="hero">
 <!--
 <div class="rowLandingElement" data-duration="500">
